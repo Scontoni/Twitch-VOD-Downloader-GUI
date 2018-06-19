@@ -1,8 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Twitch_VOD_Downloader_Form
 {
@@ -17,6 +22,6 @@ namespace Twitch_VOD_Downloader_Form
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-        }
+        }        
     }
 }
